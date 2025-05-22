@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Lista de Presentes</title> 
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Minha Lista de Presentes</h1>
+  </header>
+
+
+  <div class="perfil">
+    <img src="img/Imagem do WhatsApp de 2024-11-26 à(s) 10.05.06_b2321ad5.jpg" alt="Minha Foto">
+    <div class="info">
+        <h4>Fernandinha a mais linda</h4>
+        <p>
+          
+            Blusa: P<br>
+            Calça: 38<br>
+            Sapato: 38
+        </p>
+    </div>
+</div>
+
+<div class="santa-animation">
+  <img src="img/presente.png" >
+</div>
+  
+  <div class="filtro">
+    <p>Filtrar por:</p>
+    <button onclick="filterItems('asc')">Mais Baratos</button>
+    <button onclick="filterItems('desc')">Mais Caros</button>
+  </div>
+
+  
+  <div class="container" id="itemContainer">
+    
+    <div class="item" data-price="1950">
+      <img src="img/nintendo.jpg" alt="Nintendo Switch">
+      <div class="item-content">
+          <h3>Nintendo Switch</h3>
+          <p>Meu sonho de consumo</p>
+          <p class="price">R$ 1.950,00</p>
+          <button onclick="window.open('https://www.mercadolivre.com.br/console-nintendo-switch-32gb-mario-kart-8-deluxe/p/MLB29576519#polycard_client=search-nordic&wid=MLB4358941430&sid=search&searchVariation=MLB29576519&position=3&search_layout=grid&type=product&tracking_id=cf11f748-c10f-46e6-9302-ab4529b08bb8', '_blank')">Presentear</button>
+      </div>
+  </div>
+  
+
+    <div class="item" data-price="3890">
+      <img src="img/roland.jpg" alt="Teclado Roland">
+      <div class="item-content">
+          <h3>Teclado Roland XPS10</h3>
+          <p>Amor da minha vida</p>
+          <p class="price">R$ 3.890,00</p>
+          <button onclick="window.open('https://www.mercadolivre.com.br/teclado-sintetizador-xps10-roland-cor-preto-110v220v/p/MLB26917842#polycard_client=search-nordic&wid=MLB3913123553&sid=search&searchVariation=MLB26917842&position=5&search_layout=grid&type=product&tracking_id=66640af8-dedb-4a51-8961-0c4f82e3bc31', '_blank')">Presentear</button>
+      </div>
+  </div>
+  
+  <div class="item" data-price="2500">
+    <img src="img/go keys.png" alt="Teclado Roland">
+    <div class="item-content">
+        <h3>Teclado Go Keys</h3>
+        <p>Esse é mais acessivel e serve também</p>
+        <p class="price">R$ 2.500,00</p>
+        <button onclick="window.open('https://www.megadisconildo.com.br/produto/teclado-roland-teclas-go-keys-61-teclas-go61k.html', '_blank')">Presentear</button>
+    </div>
+</div>
+
+
+    <div class="item" data-price="70">
+      <img src="img/farm.jpg" alt="Havaiana da Farm">
+      <div class="item-content">
+          <h3>Havaiana da Farm (Branca e Azul)</h3>
+          <p>Tamanho 38</p>
+          <p class="price">R$ 70,00</p>
+          <button onclick="window.open('https://havaianas.com.br/p/chinelo%20havaianas%20farm%20%20azulejo-4149361_0121.html?srsltid=AfmBOorigpMUTvWutkDCMQFZUuQldGVq4A6F7Eo0rRIPBqOmaPfDmBTX', '_blank')">Presentear</button>
+      </div>
+  </div>
+
+    <div class="item" data-price="160">
+      <img src="img/calça.jpg" alt="Calça Cargo Preta">
+      <div class="item-content">
+          <h3>Calça Cargo Preta</h3>
+          <p>Tamanho 36 ou 38</p>
+          <p class="price">R$ 160,00</p>
+          <button onclick="window.open('https://www.cea.com.br/calca-wide-leg-cargo-de-sarja-cintura-alta-preta-1072518-preto/p?skuId=6259906&utm_term=&utm_campaign=&utm_source=adwords&utm_medium=ppc&hsa_acc=9877382071&hsa_cam=21832749030&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQiAgJa6BhCOARIsAMiL7V-N7RvpA_ZjcMqDFNYLaPmSGuRQWlvhM_CDIHzVaLK_lGXtdN8PzecaAieQEALw_wcB', '_blank')">Presentear</button>
+      </div>
+  </div>
+  
+
+      <div class="item" data-price="360">
+        <img src="img/tenis.png" alt="Tênis Nike Court Vision">
+        <div class="item-content">
+            <h3>Tênis Nike Court Vision</h3>
+            <p>Tamanho 38</p>
+            <p class="price">R$ 360,00</p>
+            <button onclick="window.open('https://www.nike.com.br/tenis-w-nike-court-vision-lo-be-013716.html?cor=51&utm_source=google&utm_medium=cpc&utm_campaign=PLA_APOSTAS_LIFESTYLE&gad_source=1&gclid=Cj0KCQiAgJa6BhCOARIsAMiL7V-QpNmd2YdTEf0PDQ54pSkSddsCcNgP3Jbsbz4oFT2U7pKHSCP5_0MaAtTxEALw_wcB', '_blank')">Presentear</button>
+        </div>
+    </div>
+    
+
+      <div class="item" data-price="380">
+        <img src="img/vans.jpg" alt="Tênis Vans Old Skool">
+        <div class="item-content">
+            <h3>Vans Old Skool</h3>
+            <p>Tamanho 38</p>
+            <p class="price">R$ 380,00</p>
+            <button onclick="window.open('https://www.vans.com.br/tenis-old-skool-black-white/p/1002001070011U?gclsrc=aw.ds&gad_source=1&gclid=Cj0KCQiAgJa6BhCOARIsAMiL7V-5VSg3aTprhPjA6FLC49A_mYApbHaHsWof9YoyQf04uWLCuFD2BtYaAhFmEALw_wcB', '_blank')">Presentear</button>
+        </div>
+    </div>
+    
+
+      <div class="item" data-price="219">
+        <img src="img/redley.jpg" alt="Tênis Redley Preto com Bordas Marrons">
+        <div class="item-content">
+            <h3>Redley preto com a borda marrom</h3>
+            <p>Tamanho 38</p>
+            <p class="price">R$ 219,00</p>
+            <button onclick="window.open('https://www.redley.com.br/tenis-new-wave-latex-preto-1209093719/p', '_blank')">Presentear</button>
+        </div>
+    </div>
+    
+
+      <div class="item" data-price="130">
+        <img src="img/BOT_2023040612_FLORATTA-ROSE_COLONIA_BODY-SPRAY.webp" alt="Perfume Florata Rose">
+        <div class="item-content">
+            <h3>Perfume Florata Rose</h3>
+            <p>Muito bom e o meu acabou :(</p>
+            <p class="price">R$ 130,00</p>
+            <button onclick="window.open('https://www.boticario.com.br/floratta-rose-desodorante-colonia-75ml-v2/?&sku=B48635&utm_source=google&utm_medium=cpc&utm_campaign=G:BOTI:Smart-Shopping:Performance-Max:Perfumaria&gad_source=1&gclid=Cj0KCQiAgJa6BhCOARIsAMiL7V80df1eYmWF7Qck0cknyI6Jrc9Jw_LgwzJ1UkMtCl13IyOPb0buehwaAhSIEALw_wcB&gclsrc=aw.ds', '_blank')">Presentear</button>
+        </div>
+    </div>
+    
+      
+
+      <div class="item" data-price="20">
+        <img src="img/meia.jpg" alt="Meias fofas de desenho">
+        <div class="item-content">
+            <h3>Meias fofas de desenho</h3>
+            <p>Tamanho 38</p>
+            <p class="price">R$ 20,00</p>
+            <button onclick="window.open('https://www.cea.com.br/search/meias', '_blank')">Presentear</button>
+        </div>
+    </div>
+    
+
+      <div class="item" data-price="70">
+        <img src="img/Captura de tela 2024-11-26 101715.png" alt="Fone Bluetooth">
+        <div class="item-content">
+            <h3>Fone Bluetooth</h3>
+            <p>Nada de comprar os de 20 reias da feira</p>
+            <p class="price">R$ 70,00</p>
+            <button onclick="window.open('https://www.mercadolivre.com.br/fone-de-ouvido-bluetooth-hmaston-moderno-confortavel/p/MLB24559002?pdp_filters=item_id:MLB5152494386#is_advertising=true&searchVariation=MLB24559002&position=4&search_layout=stack&type=pad&tracking_id=105b9ad0-6cc0-486f-894e-ecdd0e3158f7&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=4&ad_click_id=ZDZmMTVkNWYtYmJlNi00Mzg5LTg1YmQtOTFiOGIzMDlhOWZh', '_blank')">
+                Presentear
+            </button>
+        </div>
+    </div>
+
+    <div class="item" data-price="110">
+      <img src="img/short.png">
+      <div class="item-content">
+          <h3>Short Jeans mom</h3>
+          <p>Tamanho 36</p>
+          <p class="price">R$ 110,00</p>
+          <button onclick="window.open('https://www.cea.com.br/short-jeans-mom-cintura-super-alta-com-cinto-kaki-1024849-kaki/p', '_blank')">
+              Presentear
+          </button>
+      </div>
+  </div>
+  
+    
+
+      <div class="item" data-price="150">
+        <img src="img/joia.png" alt="Joias">
+        <div class="item-content">
+            <h3>Anéis, brincos, cordões, pulseiras...</h3>
+            <p>Anel tam 17</p>
+            <p class="price">R$ 150,00</p>
+            <button onclick="window.open('https://www.rommanel.com.br', '_blank')">
+                Presentear
+            </button>
+        </div>
+    </div>
+    
+
+      <div class="item" data-price="150">
+        <img src="img/bolsa.png" alt="Bolsa Farm">
+        <div class="item-content">
+            <h3>Bolsinha Farm da Gema</h3>
+            <p>Não precisa ser nessa estampa, mas eu gosto dessa</p>
+            <p class="price">R$ 150,00</p>
+            <button onclick="window.open('https://www.mercadolivre.com.br/bolsa-farm-da-gema-encanto-tropical-78317755r-cor-branco/p/MLB40734597?pdp_filters=item_id%3AMLB5151225632&from=gshop&matt_tool=43232742&matt_word=&matt_source=google&matt_campaign_id=14302214868&matt_ad_group_id=124787839646&matt_match_type=&matt_network=g&matt_device=c&matt_creative=539425484371&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735098639&matt_product_id=MLB40734597-product&matt_product_partition_id=1818928243198&matt_target_id=pla-1818928243198&cq_src=google_ads&cq_cmp=14302214868&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gclid=Cj0KCQiAgJa6BhCOARIsAMiL7V_MvE3I4cFDO8Ap9JJQoS5VHMS_tfVSUC1gVfARx8RkLDH47JscDlcaAlPxEALw_wcB', '_blank')">
+                Presentear
+            </button>
+        </div>
+    </div>
+    
+
+      <div class="item" data-price="100">
+        <img src="img/blusa.png" alt="Blusa">
+        <div class="item-content">
+            <h3>Blusas Fofas</h3>
+            <p>Tamanho P, fiquem à vontade para escolher</p>
+            <p class="price">R$ 100,00</p>
+            <button onclick="window.open('https://www.cea.com.br/moda-feminina/roupas/blusas?_gl=1*orwifa*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAgJa6BhCOARIsAMiL7V8aWKMwx_iDYV_1vFLoVElrsEtLUBiX4UD7b4Iin99QzcMV_UX5wAgaAqUiEALw_wcB', '_blank')">
+                Presentear
+            </button>
+        </div>
+    </div>
+
+      <div class="item" data-price="65">
+        <img src="img/chocolates.png" alt="Chocolates">
+        <div class="item-content">
+            <h3>Chocolatinhos da Cacau Show</h3>
+            <p>Pode ser qualquer um</p>
+            <p class="price">R$ 65,00</p>
+            <button onclick="window.open('https://www.cacaushow.com.br/produto/caixa-de-bombons-sortidos-240g-1003111.html', '_blank')">
+                Presentear
+            </button>
+        </div>
+    </div>
+    
+      <div class="item" data-price="95">
+        <img src="img/natação.png">
+        <div class="item-content">
+          <h3> Kit de mergulho </h3>
+          <p>Para eu usar na viagem</p>
+          <p class="price">R$ 95,00</p>
+          <button onclick="window.open('https://www.mercadolivre.com.br/cressi-mergulho-rapallo-rosa-unico/p/MLB39960125?product_trigger_id=MLB28821392&pdp_filters=item_id%3AMLB3842713943&applied_product_filters=MLB28821392&quantity=1', '_blank')">
+            Presentear
+        </button>
+        </div>
+      </div>
+
+    
+
+    
+  </div>
+
+  
+  <footer>
+    <p> Gratidão </p>
+  </footer>
+
+  <script>
+    function filterItems(order) {
+      const container = document.getElementById('itemContainer');
+      const items = Array.from(container.querySelectorAll('.item'));
+
+      items.sort((a, b) => {
+        const priceA = parseFloat(a.getAttribute('data-price'));
+        const priceB = parseFloat(b.getAttribute('data-price'));
+
+        return order === 'asc' ? priceA - priceB : priceB - priceA;
+      });
+
+      // Reordenar os itens no DOM
+      items.forEach(item => container.appendChild(item));
+    }
+    window.onload = function () {
+    const santa = document.querySelector('.santa-animation');
+    santa.addEventListener('animationend', () => {
+      santa.remove();
+    });
+  };
+  </script>
+
+</body>
+</html>
